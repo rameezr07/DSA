@@ -4,7 +4,6 @@ class Solution {
       visited[i] = true;
       for(auto j:adj[i]){
           if(!visited[j]){
-              //visited[j] = true;
               dfs(j, adj, res, visited);
           }
       }

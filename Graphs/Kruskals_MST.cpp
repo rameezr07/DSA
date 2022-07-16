@@ -1,4 +1,5 @@
 #include<algorithm>
+
 bool cmp(vector<int> &a, vector<int> &b){
     return a[2] < b[2];
 }
