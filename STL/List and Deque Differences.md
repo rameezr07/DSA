@@ -53,5 +53,3 @@
 ### Summary:
 - `std::list`: Doubly linked list, best for frequent insertions/deletions at any position, but slow random access.
 - `std::deque`: Double-ended queue, best for efficient operations at both ends with fast random access.
-
-Hopefully, this clears up the distinctions for you! If you have more questions, feel free to ask. 😊
