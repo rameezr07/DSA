@@ -1,5 +1,47 @@
-## Count subsequences with sum = target
+### Problem Statement: Count Subsequences with Sum Equal to Target
 
+**Objective**:
+Write a program to count the number of subsequences in a given vector of integers that sum up to a specified target value using recursion.
+
+**Constraints**:
+- The input is a vector of integers `arr`.
+- The target sum is an integer `target`.
+- Subsequences are considered in the order they appear in the vector.
+- The same subsequence should not be counted multiple times.
+
+**Input**:
+- A vector of integers `arr` representing the array.
+- An integer `target` representing the target sum.
+
+**Output**:
+- An integer representing the number of subsequences that sum up to the target.
+
+**Example**:
+```
+Input:
+arr = {1, 2, 1}
+target = 2
+
+Output:
+Number of subsequences with sum = 2 is: 2
+```
+
+**Explanation**:
+- There are two subsequences in the array that sum up to `2`:
+  - Subsequence 1: [1, 1]
+  - Subsequence 2: [2]
+
+**Function Signature**:
+```cpp
+int countSubsequences(vector<int>& arr, int index, int currentSum, int target);
+int main();
+```
+
+**Your Task**:
+1. Implement the `countSubsequences` function to recursively count the number of subsequences with the sum equal to the target.
+2. Write the `main` function to define the vector and target, then call the `countSubsequences` function.
+
+**Solution**:
 ```cpp
 #include <iostream>
 #include <vector>

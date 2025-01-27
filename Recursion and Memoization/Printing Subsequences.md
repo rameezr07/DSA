@@ -1,5 +1,49 @@
-## Print all subsequences of a vector of integers:
+### Problem Statement: Print All Subsequences of a Vector of Integers
 
+**Objective**:
+Write a program to print all subsequences of a given vector of integers using recursion. A subsequence is a sequence derived from another sequence by deleting some or no elements without changing the order of the remaining elements.
+
+**Constraints**:
+- The input is a vector of integers `arr`.
+- Subsequences should be printed in the order they appear in the vector.
+- You can assume the elements in the vector are distinct.
+
+**Input**:
+- A vector of integers `arr` representing the array.
+
+**Output**:
+- Print each subsequence on a new line.
+
+**Example**:
+```
+Input:
+arr = {1, 2, 3}
+
+Output:
+1
+2
+1 2
+3
+1 3
+2 3
+1 2 3
+```
+
+**Explanation**:
+- The subsequences of the input array `{1, 2, 3}` are printed in the order they appear.
+- Note that an empty subsequence is also a valid subsequence but is not required to be printed.
+
+**Function Signature**:
+```cpp
+void printSubsequences(vector<int>& arr, vector<int>& output, int index);
+int main();
+```
+
+**Your Task**:
+1. Implement the `printSubsequences` function to recursively generate and print all subsequences.
+2. Write the `main` function to define the vector and call the `printSubsequences` function.
+
+**Solution**:
 ```cpp
 #include <iostream>
 #include <vector>

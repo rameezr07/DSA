@@ -1,5 +1,3 @@
-## Paths in a matrix from source
-
 ### Problem Statement: Counting Paths in a Matrix with Obstacles
 
 **Objective**:
