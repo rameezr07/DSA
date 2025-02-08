@@ -1,6 +1,5 @@
 ## Problem: Add Two Numbers
 
----
 
 **Problem Statement:**
 

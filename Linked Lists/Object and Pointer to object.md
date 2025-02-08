@@ -33,5 +33,3 @@ node->next = &node2;     // Set the next pointer of the node1 object (via the po
 ### Summary:
 - Use `object.member` (e.g., `node1.next`) when you have an object.
 - Use `pointer->member` (e.g., `node->next`) when you have a pointer to an object.
-
-I hope this helps clarify the difference! If you have any more questions, feel free to ask.
