@@ -7,7 +7,7 @@ Bitwise operators work at the **bit level**, meaning they operate directly on bi
 | Operator | Name                 | Description |
 |----------|----------------------|-------------|
 | `&`      | AND                  | `1 & 1 = 1`, otherwise `0` |
-| `\|`      | OR                   | `0 | 1 = 1`, `1 | 0 = 1`, `1 | 1 = 1` |
+| `\|`      | OR                   | `0 \| 1 = 1`, `1 | 0 = 1`, `1 | 1 = 1` |
 | `^`      | XOR (Exclusive OR)   | `1 ^ 1 = 0`, `1 ^ 0 = 1`, `0 ^ 1 = 1` |
 | `~`      | NOT (Bitwise Negation) | Flips bits: `~1010` becomes `0101` |
 | `<<`     | Left Shift           | Shifts bits left, multiplying by `2^n` |
@@ -60,7 +60,7 @@ cout << (a | b); // 7
 | `a`  | 0 | 1 | 0 | 1 |
 |------|---|---|---|---|
 | `b`  | 0 | 0 | 1 | 1 |
-| `a|b`| 0 | 1 | 1 | 1 |
+| `a\|b`| 0 | 1 | 1 | 1 |
 
 Result: **`0111`** (decimal `7`)
 
